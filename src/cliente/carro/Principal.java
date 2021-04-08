@@ -3,19 +3,15 @@ package cliente.carro;
 public class Principal {
 
 	public static void main(String[] args) {
-		
 		boolean constroiBem = testarConstrucaoCarro();
 		
 		if( constroiBem )
 			System.out.println("Carro bem construído");
 		else 
 			System.out.println("Carro mal construído");
-		
-
 	}
 	
 	private static boolean testarConstrucaoCarro() {
-		
 		return false;
 	}
 	
@@ -33,7 +29,6 @@ public class Principal {
 	}
 	
 	private static boolean testarMeterCombustivelAtestar() {
-		
 		return false;
 	}
 	
@@ -50,8 +45,4 @@ public class Principal {
 		return false;
 	}
 	
-	
-	
-	
-
 }
